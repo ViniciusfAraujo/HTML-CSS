@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400&display=swap');
+
+
+:root{
+    --fonte1:'Cormorant', serif;
+    --fonte2:font-family: 'Amatic SC', cursive;
+    --fonte3:font-family: 'Poppins', sans-serif;
+    --fonte4:font-family: 'Noto Serif', serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: black;
+}
+
+header{
+    background-color: rgb(22, 22, 23/ 80% );
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: var(--fonte4);
+    line-height: 2em;
+    background-attachment: fixed;
+    backdrop-filter: blur(20px);
+}
+
+header{
+    position: sticky;
+    top: -1px;
+    background-color: black;
+}
+ 
+header > h1{
+    padding-top: 50px;
+}
+
+header > h3{
+    padding-bottom: 50px;
+} 
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1em;
+    padding-left: 10px;
+    font-family: var(--fonte1);
+    font-size: 20px;
+
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+    font-family: var(--fonte2);
+}
+
+section.imagen{
+    background-color: rgb(56, 53, 53);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.938);
+    
+}
+
+section.imagen > h2{
+    padding-bottom: 10px;
+}
+
+section.imagen > p{
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+section#img01{
+    background-image: url('Imagens/art2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('Imagens/art3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#img03{
+    background-image: url('Imagens/art5.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
