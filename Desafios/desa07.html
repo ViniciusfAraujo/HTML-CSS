@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="password" id="pwd">
+        <input type="checkbox"id="chk"> Show password
+    </div>
+
+    <script>
+        //Mostrar/esconder senha
+        const pwd = document.getElementById('pwd')
+        const chk = document.getElementById('chk')
+        chk.onchange = e => pwd.type = chk.checked ? 'text' : 'password'
+        
+    </script>
+</body>
+</html>
